@@ -8,5 +8,61 @@ html {
 
 body {
   margin: 0;
+  padding: 0;
   min-height: 100%;
+}
+
+nav {
+  background-color: rgb(245, 224, 142);
+  margin: 0;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+nav a {
+  color: rgba(36, 123, 160, 1);
+  text-decoration: none;
+}
+
+nav ul {
+  margin: 0;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+
+nav li {
+  padding: 1rem;
+  margin: 0;
+}
+
+.hero {
+  display: flex;
+  background-image: url("./Images/downtown.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero h1 {
+  background-image: linear-gradient(rgba(245, 224, 142, 0.8), rgba(138, 56, 55, 0.8));
+  color: rgba(36, 123, 160, 1);
+  font-size: 2rem;
+  padding: 2rem;
+  text-align: center;
+  width: 100%;
+}
+
+.line {
+  margin-left: 25px;
+  margin-right: 25px;
+  height: 1px;
+  background-color: black;
+}
+
+.card img {
+  width: 100%;
 }
