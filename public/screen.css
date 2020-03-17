@@ -12,6 +12,10 @@ body {
   min-height: 100%;
 }
 
+main {
+  background-color: rgb(200, 200, 200);
+}
+
 nav {
   background-color: rgb(245, 224, 142);
   margin: 0;
@@ -65,4 +69,8 @@ nav li {
 
 .card img {
   width: 100%;
+}
+
+footer {
+  background-color: rgb(200, 200, 200);
 }
